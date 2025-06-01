@@ -1,6 +1,6 @@
 {
   "name": "di-typescript-container",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A powerful and flexible TypeScript dependency injection container",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
