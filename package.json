@@ -1,0 +1,61 @@
+{
+  "name": "typescript-di-container",
+  "version": "1.0.0",
+  "description": "A powerful and flexible TypeScript dependency injection container",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "dev": "tsc -w",
+    "prepublishOnly": "npm run build",
+    "lint": "eslint src --ext .ts",
+    "clean": "rimraf dist coverage",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "dependency-injection",
+    "ioc",
+    "container",
+    "typescript",
+    "di",
+    "inversion-of-control",
+    "injection",
+    "auto-injection"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hmqiwtCode/typescript-di-container.git"
+  },
+  "homepage": "https://github.com/hmqiwtCode/typescript-di-container#readme",
+  "bugs": {
+    "url": "https://github.com/hmqiwtCode/typescript-di-container/issues"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.2.2",
+    "tslib": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.15.23",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.4",
+    "typescript": "^5.8.3",
+    "rimraf": "^5.0.5",
+    "eslint": "^8.54.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1"
+  },
+  "peerDependencies": {
+    "typescript": ">=4.0.0"
+  }
+}
