@@ -1,6 +1,6 @@
 # Dependency Injection Library Comparison
 
-| Feature                        | typescript-di-container | TSyringe | InversifyJS | TypeDI | NestJS |
+| Feature                        | di-typescript-container | TSyringe | InversifyJS | TypeDI | NestJS |
 | ------------------------------ | ----------------------- | -------- | ----------- | ------ | ------ |
 | **Core Features**              |
 | Auto-injection                 | ✅                      | ✅       | ✅          | ✅     | ✅     |
@@ -52,7 +52,7 @@
 
 ## Key Differentiators
 
-### typescript-di-container vs. Others
+### di-typescript-container vs. Others
 
 1. **Interface-based auto-injection**: Unlike other libraries that require manual token registration for interfaces, my library supports automatic resolution based on interface implementation.
 
@@ -72,14 +72,14 @@ Based on performance testing:
 
    - Vanilla JS/Manual DI: Fastest
    - TSyringe: 3x slower than Vanilla
-   - typescript-di-container: 3-4x slower than Vanilla
+   - di-typescript-container: 3-4x slower than Vanilla
    - InversifyJS: 4-5x slower than Vanilla
    - NestJS: 8-10x slower than Vanilla
 
 2. **Resolution Performance**:
    - Vanilla JS/Manual DI: ~950M ops/sec
-   - typescript-di-container and TSyringe: ~5-6M ops/sec
+   - di-typescript-container and TSyringe: ~5-6M ops/sec
    - InversifyJS: ~2-3M ops/sec
    - NestJS: ~1-2M ops/sec
 
-These benchmarks demonstrate that while all DI containers introduce some overhead compared to vanilla JavaScript, typescript-di-container maintains competitive performance while offering enhanced features.
+These benchmarks demonstrate that while all DI containers introduce some overhead compared to vanilla JavaScript, di-typescript-container maintains competitive performance while offering enhanced features.

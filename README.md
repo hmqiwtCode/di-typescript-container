@@ -16,7 +16,7 @@ A powerful and flexible TypeScript dependency injection container with support f
 ## Installation
 
 ```bash
-npm install typescript-di-container
+npm install di-typescript-container
 ```
 
 ## Basic Usage
@@ -28,7 +28,7 @@ import {
   Injectable,
   Inject,
   InjectionToken,
-} from "typescript-di-container";
+} from "di-typescript-container";
 
 // Define a service
 @Injectable()
@@ -195,7 +195,7 @@ import {
   ContainerModule,
   ConditionalModule,
   AsyncContainerModule,
-} from "typescript-di-container";
+} from "di-typescript-container";
 
 // Create a module with related bindings
 const userModule = new ContainerModule((container) => {

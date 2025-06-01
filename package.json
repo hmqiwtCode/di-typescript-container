@@ -1,5 +1,5 @@
 {
-  "name": "typescript-di-container",
+  "name": "di-typescript-container",
   "version": "1.0.0",
   "description": "A powerful and flexible TypeScript dependency injection container",
   "main": "dist/index.js",
@@ -34,11 +34,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hmqiwtCode/typescript-di-container.git"
+    "url": "https://github.com/hmqiwtCode/di-typescript-container.git"
   },
-  "homepage": "https://github.com/hmqiwtCode/typescript-di-container#readme",
+  "homepage": "https://github.com/hmqiwtCode/di-typescript-container#readme",
   "bugs": {
-    "url": "https://github.com/hmqiwtCode/typescript-di-container/issues"
+    "url": "https://github.com/hmqiwtCode/di-typescript-container/issues"
   },
   "dependencies": {
     "reflect-metadata": "^0.2.2",
