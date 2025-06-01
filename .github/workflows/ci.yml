@@ -37,8 +37,14 @@ jobs:
           cache: "npm"
       - run: npm ci
       - run: npm run test:coverage
+
+      - name: List coverage files
+        run: |
+          ls -la coverage/
+          cat coverage/lcov.info
+
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          fail_ci_if_error: true
+          slug: hmqiwtCode/typescript-di-container
